@@ -1,0 +1,19 @@
+{
+    "name": "kuvardin/sms-center",
+    "description": "PHP SDK for SMS Center API",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Maxim Kuvardin",
+            "email": "maxim@kuvard.in"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuvardin\\SmsCenter\\": "src"
+        }
+    }
+}
